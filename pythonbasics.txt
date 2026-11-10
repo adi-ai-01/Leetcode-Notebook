@@ -1,1 +1,16 @@
-hi
+PYTHON BASICS — LEARNING NOTES
+
+
+- append(x) modifies a list and returns None.
+- pop(i) removes and returns the element at index i.
+- remove(x) removes the first matching value.
+- a = b makes both variables refer to the same list.
+- a.copy() creates a shallow copy; nested objects are still shared.
+- Modifying a list while iterating over it can cause unexpected behaviour.
+
+FUNCTIONS
+- Parameters are defined in a function; arguments are passed when calling it.
+- Passing a list to a function allows the function to modify the original list.
+
+
+
