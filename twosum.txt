@@ -1,0 +1,10 @@
+TWO SUM 
+
+- Return indices, not values. Two equal values at different indices are valid.
+- In brute force, start the inner loop at i + 1 to avoid using the same element twice and checking duplicate pairs.
+- Don't compare nums[i] != nums[j] to check distinct elements. Compare their indices.
+- A hash map can store complement -> index, allowing us to find a matching earlier element efficiently.
+- Check whether the current number is already a stored complement before storing its own complement.
+- Dictionary assignment overwrites an existing value for the same key.
+- Brute force: O(n²) time, O(1) auxiliary space.
+- Hash map: O(n) average time, O(n) space.
